@@ -1,5 +1,5 @@
 /* header section start */
-.heater-title {
+.header-title {
     position: absolute;
     font-family: 'Poppins';
     left: 8.33%;
@@ -107,6 +107,9 @@
     font-size: 15px;
 }
 
+.Start-Journey-button:hover{
+    background-color: rgb(180, 161, 51);
+}
 .sponsor-section {
     position: absolute;
     width: 1110px;
@@ -141,15 +144,6 @@ hr {
 }
 
 
-
-/* .Popular-Collection {
-    position: absolute;
-    width: 1047px;
-    height: 1662px;
-    left: 196px;
-    top: 935px;
-} */
-
 .collection-title {
     position: absolute;
     width: 262px;
@@ -174,7 +168,9 @@ hr {
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
 }
-
+.collection-contain:hover{
+    background-color: #660428;
+}
 .collection-contain img {
     right: 40px;
     padding: 10px 15px;
@@ -226,7 +222,9 @@ hr {
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
 }
-
+.collection-contain-two:hover{
+    background-color: #660428;
+}
 .collection-contain-two img {
     right: 40px;
     padding: 10px 15px;
@@ -271,7 +269,9 @@ hr {
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
 }
-
+.collection-contain-three:hover{
+    background-color: #660428;
+}
 .collection-contain-three img {
     right: 40px;
     padding: 10px 15px;
@@ -318,7 +318,9 @@ hr {
     border-radius: 5px;
 }
 
-
+.collection-contain-four:hover{
+    background-color: #660428;
+}
 .collection-contain-four img {
     right: 40px;
     padding: 10px 15px;
@@ -365,6 +367,9 @@ hr {
     border-radius: 5px;
 }
 
+.collection-contain-five:hover{
+    background-color: #660428;
+}
 .collection-contain-five img {
     right: 40px;
     padding: 10px 15px;
@@ -410,7 +415,9 @@ hr {
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
 }
-
+.collection-contain-six:hover{
+    background-color: #660428;
+}
 .collection-contain-six img {
     right: 40px;
     padding: 10px 15px;
@@ -457,6 +464,9 @@ hr {
     border-radius: 5px;
 }
 
+.collection-contain-seven:hover{
+    background-color: #660428;
+}
 .collection-contain-seven img {
     right: 40px;
     padding: 10px 15px;
@@ -505,6 +515,10 @@ hr {
     border-radius: 5px;
 }
 
+.collection-contain-eight:hover{
+    background-color: #660428;
+}
+
 .collection-contain-eight img {
     right: 40px;
     padding: 10px 15px;
@@ -549,6 +563,10 @@ hr {
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
+}
+
+.collection-contain-nine:hover{
+    background-color: #660428;
 }
 
 .collection-contain-nine img {
@@ -610,6 +628,7 @@ hr {
     top: 2600px;
 }
 
+
 .featured-container,
 .feature-title {
     position: absolute;
@@ -640,12 +659,15 @@ hr {
     left: 250px;
     top: 170px;
     font-weight: 700;
+    border: none;
     font-size: 16px;
     line-height: 24px;
     background: #E02C6D;
     color: #FFFFFF;
 }
-
+.button-join:hover{
+    background-color: rgb(184, 169, 89);
+}
 .footer-section {
     position: absolute;
     width: 1440px;
